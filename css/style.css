@@ -272,7 +272,9 @@ a {
 /* ポップアップウインドウの設定 */
 .popup, .popup2, .popup3, 
 .popup4, .popup5, .popup6, 
-.popup7, .popup8{
+.popup7, .popup8, .popup9,
+.popup10, .popup11, .popup12,
+.popup13, .popup14, .popup15 {
     background-color: #87919C;
     box-shadow: 0 0 0 9999px rgba(255, 255, 255, 0.89);
     display: none;
@@ -291,14 +293,18 @@ a {
 /* チェックボックスの初期設定 */
 #popup-on, #popup-on2, #popup-on3, 
 #popup-on4, #popup-on5, #popup-on6, 
-#popup-on7, #popup-on8 {
+#popup-on7, #popup-on8, #popup-on9,
+#popup-on10, #popup-on11, #popup-on12, 
+#popup-on13, #popup-on14, #popup-on15 {
     display: none;
 }
 
 /* チェックされたらポップアップウインドウを開く */
 #popup-on:checked+.popup, #popup-on2:checked+.popup2, #popup-on3:checked+.popup3, 
 #popup-on4:checked+.popup4, #popup-on5:checked+.popup5, #popup-on6:checked+.popup6,
-#popup-on7:checked+.popup7, #popup-on8:checked+.popup8 {
+#popup-on7:checked+.popup7, #popup-on8:checked+.popup8, #popup-on9:checked+.popup9,
+#popup-on10:checked+.popup10, #popup-on11:checked+.popup11, #popup-on12:checked+.popup12,
+#popup-on13:checked+.popup13, #popup-on14:checked+.popup14, #popup-on15:checked+.popup15 {
     display: block;
 }
 
@@ -306,7 +312,9 @@ a {
 /* 閉じるアイコン（右上） */
 .icon-close, .icon-close2, .icon-close3, 
 .icon-close4, .icon-close5, .icon-close6,
-.icon-close7, .icon-close8 {
+.icon-close7, .icon-close8, .icon-close9,
+.icon-close10, .icon-close11, .icon-close12,
+.icon-close13, .icon-close14, .icon-close15 {
     color: rgb(0, 0, 0);
     font-size: 50px;
     font-weight: bold;
@@ -319,7 +327,9 @@ a {
 /* 閉じるボタン */
 .btn-close, .btn-close2, .btn-close3, 
 .btn-close4, .btn-close5, .btn-close6,
-.btn-close7, .btn-close8 {
+.btn-close7, .btn-close8, .btn-close9,
+.btn-close10, .btn-close11, .btn-close12,
+.btn-close13, .btn-close14, .btn-close15 {
     background: #000;
     border-radius: 10px;
     color: #fff;
@@ -333,7 +343,9 @@ a {
 /* 開くボタン */
 .btn-open, .btn-open2, .btn-open3, 
 .btn-open4, .btn-open5, .btn-open6, 
-.btn-open7, .btn-open8 {
+.btn-open7, .btn-open8, .btn-open9,
+.btn-open10, .btn-open11, .btn-open12,
+.btn-open13, .btn-open14, .btn-open15 {
     cursor: pointer;
     text-align: center;
 }
@@ -341,7 +353,9 @@ a {
 /* ポップアップの内容 */
 .popup-content, .popup-content2, .popup-content3, 
 .popup-content4, .popup-content5, .popup-content6,
-.popup-content7, .popup-content8 {
+.popup-content7, .popup-content8, .popup-content9,
+.popup-content10, .popup-content11, .popup-content12,
+.popup-content13, .popup-content14, .popup-content15 {
     margin: 20px auto 20px auto;
     width: 95%;
 }
