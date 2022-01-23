@@ -56,12 +56,12 @@ if (num < 7) {
 });
 
 $(function() {
-var hideList = '.grid1 .content:nth-of-type(n+7)';
-$(hideList).hide();
-$('.btn_ao_b').click(function() {
-  $(hideList).toggle();
-  if ($(hideList).css('display') == 'none') {
-    document.getElementById("te1").innerHTML = "view more";
+var hideList1 = '.grid1 .content:nth-of-type(n+7)';
+$(hideList1).hide();
+$('.btn_ao_b1').click(function() {
+  $(hideList1).toggle();
+  if ($(hideList1).css('display') == 'none') {
+    document.getElementById("te1").innerHTML = "Python, C言語, Java, アセンブリ言語, SQL, C#, Vim, Unity, Adobe Premiere, Autodesk Fusion";
   } else {
     document.getElementById("te1").innerHTML = "close";
   }
@@ -70,6 +70,6 @@ $('.btn_ao_b').click(function() {
 
 var num = $('.grid1').children('.content').length;
 if (num < 7) {
-  $('.btn_ao_b').hide();
+  $('.btn_ao_b1').hide();
 };
 });
