@@ -276,7 +276,7 @@ a {
 .popup10, .popup11, .popup12,
 .popup13, .popup14, .popup15,
 .popup16, .popup17, .popup18,
-.popup19, .popup20 {
+.popup19, .popup20, .popup21 {
     background-color: #87919C;
     box-shadow: 0 0 0 9999px rgba(255, 255, 255, 0.89);
     display: none;
@@ -299,7 +299,7 @@ a {
 #popup-on10, #popup-on11, #popup-on12, 
 #popup-on13, #popup-on14, #popup-on15,
 #popup-on16, #popup-on17, #popup-on18,
-#popup-on19, #popup-on20 {
+#popup-on19, #popup-on20, #popup-on21 {
     display: none;
 }
 
@@ -310,7 +310,7 @@ a {
 #popup-on10:checked+.popup10, #popup-on11:checked+.popup11, #popup-on12:checked+.popup12,
 #popup-on13:checked+.popup13, #popup-on14:checked+.popup14, #popup-on15:checked+.popup15,
 #popup-on16:checked+.popup16, #popup-on17:checked+.popup17, #popup-on18:checked+.popup18,
-#popup-on19:checked+.popup19, #popup-on20:checked+.popup20 {
+#popup-on19:checked+.popup19, #popup-on20:checked+.popup20, #popup-on21:checked+.popup21 {
     display: block;
 }
 
@@ -322,7 +322,7 @@ a {
 .icon-close10, .icon-close11, .icon-close12,
 .icon-close13, .icon-close14, .icon-close15,
 .icon-close16, .icon-close17, .icon-close18,
-.icon-close19, .icon-close20 {
+.icon-close19, .icon-close20, .icon-close21 {
     color: rgb(0, 0, 0);
     font-size: 50px;
     font-weight: bold;
@@ -339,7 +339,7 @@ a {
 .btn-close10, .btn-close11, .btn-close12,
 .btn-close13, .btn-close14, .btn-close15,
 .btn-close16, .btn-close17, .btn-close18,
-.btn-close19, .btn-close20 {
+.btn-close19, .btn-close20, .btn-close21 {
     background: #000;
     border-radius: 10px;
     color: #fff;
@@ -357,7 +357,7 @@ a {
 .btn-open10, .btn-open11, .btn-open12,
 .btn-open13, .btn-open14, .btn-open15,
 .btn-open16, .btn-open17, .btn-open18,
-.btn-open19, .btn-open20 {
+.btn-open19, .btn-open20, .btn-open21 {
     cursor: pointer;
     text-align: center;
 }
@@ -369,7 +369,7 @@ a {
 .popup-content10, .popup-content11, .popup-content12,
 .popup-content13, .popup-content14, .popup-content15,
 .popup-content16, .popup-content17, .popup-content18,
-.popup-content19, .popup-content20 {
+.popup-content19, .popup-content20, .popup-content21 {
     margin: 20px auto 20px auto;
     width: 95%;
 }
